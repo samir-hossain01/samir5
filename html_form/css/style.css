@@ -1,0 +1,108 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+body{
+    background:#FFA000;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+ header{
+        width: 100%;
+
+    }
+    .wrapper01 {
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+       padding:15px 0px;
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    .menu {
+        width: 55%;
+        float: right;
+
+    }
+    .menu ul{
+        float: right;
+
+    }
+    .menu ul li {
+        list-style: none;
+        float: left;
+
+    }
+    .menu ul li a{
+        display: block;
+        text-decoration: none;
+        padding: 0px 15px;
+    text-transform: capitalize;
+        font-family: sans-serif;
+        color:white;
+        transition: .5s;
+    }
+    .menu ul li a:hover{
+        color:chartreuse;
+
+    }
+    .menu ul li:last-child a{
+        padding: 0px;
+    }
+form{
+    margin-top: 40px;
+}
+.wrapper{
+    padding-top: 20px;
+ -webkit-box-shadow: -1px 10px 39px -13px rgba(38,30,17,1);
+-moz-box-shadow: -1px 10px 39px -13px rgba(38,30,17,1);
+box-shadow: -1px 10px 39px -13px rgba(38,30,17,1);
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+.username,.email,.password{
+    margin-left: 130px;
+    padding: 8px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.gender{
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+.term{
+    
+    margin-bottom: 15px;
+    margin-left: 130px;
+}
+button{
+    background: #FFA000;
+    margin-left: 260px;
+    padding: 20px;
+    color:white;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    
+}
+.wrapper h2{
+    text-align: center;
+   color:brown;
+}

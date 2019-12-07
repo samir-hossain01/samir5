@@ -1,0 +1,100 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        width: 100%;
+
+    }
+    .wrapper {
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+       padding:15px 0px;
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    .menu {
+        width: 55%;
+        float: right;
+
+    }
+    .menu ul{
+        float: right;
+
+    }
+    .menu ul li {
+        list-style: none;
+        float: left;
+
+    }
+    .menu ul li a{
+        display: block;
+        text-decoration: none;
+        padding: 0px 15px;
+    text-transform: capitalize;
+        font-family: sans-serif;
+        color:#878787;
+        transition: .5s;
+    }
+    .menu ul li a:hover{
+        color:chartreuse;
+
+    }
+    .menu ul li:last-child a{
+        padding: 0px;
+    }
+    .banner {
+        overflow: hidden;
+        width: 100%;
+        background: #539CEC;
+        min-height: 450px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 150px;
+      -moz-box-shadow: 2px 5px 6px #5438a1;
+-webkit-box-shadow: 2px 5px 6px #5438a1;
+box-shadow: 2px 5px 6px #5438a1;
+
+    }
+
+
+    .container {
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 90px;
+
+    }
+
+    .box_section {
+        width: 30%;
+        float: left;
+    }
+    .box_section p{
+        font-size: 35px;
+        font-family: sans-serif;
+        color: white;
+        text-transform: capitalize;
+    }
+    .box_section 1{
+        text-decoration: none;
+        font-size: 15px;
+        color:white;
+        font-family: fantasy;
+        background: #173CD6;
+        text-transform: uppercase;
+    }
+
+    .box_section1 p{
+        width: 40%;
+        float: right;
+        color:white;
+        text-transform: capitalize;
+    }

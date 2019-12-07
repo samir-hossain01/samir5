@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    padding: 10px 0px;
+}
+.wrapper{
+    overflow: hidden;
+    width: 85%;
+    
+    margin: 0 auto;
+}
+.logo{
+    width:15%;
+   
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    float: right;
+    
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color:black;
+    
+}
+.menu ul li:last-child a{
+    padding: 0px;
+}
